@@ -306,7 +306,7 @@ GameObject:
   - component: {fileID: 1300699099}
   - component: {fileID: 1300699098}
   m_Layer: 0
-  m_Name: Terrain
+  m_Name: Moon Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -322,7 +322,7 @@ TerrainCollider:
   m_Material: {fileID: 0}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: 941d428c1eda51d49a4139d1870ec4a9, type: 2}
-  m_EnableTreeColliders: 1
+  m_EnableTreeColliders: 0
 --- !u!218 &1300699099
 Terrain:
   m_ObjectHideFlags: 0
@@ -340,9 +340,9 @@ Terrain:
   m_DetailObjectDistance: 80
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 25
-  m_SplatMapDistance: 1000
+  m_SplatMapDistance: 1141
   m_HeightmapMaximumLOD: 0
-  m_ShadowCastingMode: 2
+  m_ShadowCastingMode: 1
   m_DrawHeightmap: 1
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
