@@ -4,6 +4,7 @@
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
+Library/Logs/
 
 # Visual Studio cache directory
 .vs/
@@ -34,3 +35,8 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Oculus
+Assets/Oculus/
+Library/
+
